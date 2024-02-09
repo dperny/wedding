@@ -1,0 +1,69 @@
+body {
+  background-color: ivory;
+  font-family: 'GFS Didot', serif;
+  font-size: 1.5em;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Pinyon Script', cursive;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2.0em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+figure {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+figure img {
+  height: 720px;
+  object-fit: contain;
+}
+
+figcaption {
+  font-family: 'Pinyon Script', cursive;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.divided {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 100px;
+}
+
+.divided * {
+  min-width: 480px;
+}
+
+.details {
+  flex: 1;
+}
+
+/* .reversed sets the figure of a divided text/image to the right */
+.reversed {
+  flex-direction: row-reverse;
+}
+
+.reversed .details {
+  text-align: right;
+}
